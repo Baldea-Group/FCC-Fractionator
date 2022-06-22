@@ -101,11 +101,11 @@ for minute=1:ST%Iterate FCC-Fractionator solution over the simulation time%
     minute
       
 % Set point tracking case study
- if (minute>=60)&&(minute<240)
-     ufcc(10)=618.5;
- elseif (minute>=240)
-     ufcc(15)=971;  
- end
+ %if (minute>=60)&&(minute<240)
+ %    ufcc(10)=618.5;
+ %elseif (minute>=240)
+ %    ufcc(15)=971;  
+ %end
 
 %Disturbance rejection case study
 % if (minute>=60)
